@@ -1,0 +1,12 @@
+name: dicom
+channels:
+  - defaults
+dependencies:
+  - numpy=1.25.2
+  - python=3.10.12
+  - pip:
+      - opencv-python==4.8.0.76
+      - pydicom==2.4.3
+      - pypng==0.20220715.0
+      - scikit-image==0.21.0
+
