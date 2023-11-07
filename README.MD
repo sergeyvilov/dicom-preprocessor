@@ -32,3 +32,4 @@ WindowWidth = dcm.WindowWidth # WindowWidth for optimal png compression
 save_png('my_scan.png', img, WindowWidth) # save as png
 ```
 
+View [my tutorial on TowardsDataScience](https://medium.com/towards-data-science/a-comprehensive-guide-on-dicom-image-preprocessing-0577450be777).
