@@ -1,6 +1,6 @@
 # DICOMPreprocessor
 
-[dicomprocessing module](dicomprocessing/) that can perform the following operations:
+A DICOM preprocessing module that can perform the following operations:
 
 * Load DICOM files
 * Correct for BitAccocated≠BitShifted representation
