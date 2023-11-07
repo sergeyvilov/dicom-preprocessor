@@ -3,7 +3,7 @@
 A DICOM preprocessing module that can perform the following operations:
 
 * Load DICOM files
-* Correct for BitAccocated≠BitShifted representation
+* Correct for BitsAllocated≠BitsStored representation
 * Convert to Hounsfield units (HU)
 * Perform windowing based on HU
 * Clean MRI/CT image from irrelevant objects (patient table, emergency button)
@@ -31,3 +31,4 @@ WindowWidth = dcm.WindowWidth # WindowWidth for optimal png compression
 
 save_png('my_scan.png', img, WindowWidth) # save as png
 ```
+
